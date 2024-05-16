@@ -1,4 +1,5 @@
 # resources
+주로 retrieval, rerank, ranking for LLM 관련 논문 list
 
 ### RANKING
 <details>
@@ -9,6 +10,16 @@
     - keyword: listwise-ranking LLMs, permutation self-consistency, lost in the middle
 </details>
 
+### DATA - Synthesize
+<details>
+    <summary>PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models</summary>
+</details>
+<details>
+    <summary>gecko embedding</summary>
+</details>
+<details>
+    <summary>improve text embedding with large language model</summary>
+</details>
 
 ### skim
 <details>
