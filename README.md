@@ -1,5 +1,5 @@
 # resources
-주로 retrieval, rerank, ranking for LLM 관련 논문 list
+주로 retrieval, rerank, ranking for LLM related paper list 
 
 ### RANKING
 <details>
@@ -9,6 +9,7 @@
     - LM listwise ranking에서 lost in the middle을 해결하기 위해 condidate prompting을 permute하고 output들을 aggregate하여 최적(center) ranking을 선택
     - keyword: listwise-ranking LLMs, permutation self-consistency, lost in the middle
 </details>
+
 
 ### DATA - Synthesize
 <details>
@@ -20,6 +21,7 @@
 <details>
     <summary>improve text embedding with large language model</summary>
 </details>
+
 
 ### skim
 <details>
