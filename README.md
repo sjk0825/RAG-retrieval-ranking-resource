@@ -11,6 +11,7 @@
 </details>
 
 
+
 ### DATA - Synthesize
 <details>
     <summary>PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models</summary>
@@ -23,6 +24,7 @@
 </details>
 
 
+
 ### skim
 <details>
     <summary>multi token prediction</summary>
@@ -31,4 +33,11 @@
   - 한번에 multi head로 여러개의 next tokens들을 학습(추론도 가능) 하는데 속도 효율성 높다. 특정 domain에서 효과가 높다고 함
   - META AI
 </details>
-
+<details>
+    <summary>
+        Sparse LLama: 70% smaller, 3x faster, full accuracy
+    </summary>
+ - https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy
+ - LLM에서 잘 연구되지 않던 prunning, sparse traning을 통해 donwstream task (특히 code generation, chatbot) 에서 accuracy를 회복함. LLAMA2
+ - 지금까지 LLM pruning 연구의 장애물이었던 GPU sparse training을 가능하게 한건 cerebras의 WSEs(Cerebras Wafer Scale Engine) 임.
+</details>
