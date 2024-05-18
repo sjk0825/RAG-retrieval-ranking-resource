@@ -4,6 +4,7 @@
 ### RANKING
 <details>
     <summary>Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting</summary>
+    
     - ICLR 2024
     - LLM의 pointwise, listwise, pairwise 의 supervised, unsupervised 성능을 비교함
     - 논문에서는 pointwise(allpair, sorting, sliding)이 가장 효과적임을 보이고, 그중 PRP-sliding이 효과적임
@@ -43,6 +44,7 @@
     <summary>
         Sparse LLama: 70% smaller, 3x faster, full accuracy
     </summary>
+    
  - https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy
  - LLM에서 잘 연구되지 않던 prunning, sparse traning을 통해 donwstream task (특히 code generation, chatbot) 에서 accuracy를 회복함. LLAMA2
  - 지금까지 LLM pruning 연구의 장애물이었던 GPU sparse training을 가능하게 한건 cerebras의 WSEs(Cerebras Wafer Scale Engine) 임.
