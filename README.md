@@ -4,6 +4,12 @@
 ### RANKING
 <details>
     <summary>Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting</summary>
+    - ICLR 2024
+    - LLM의 pointwise, listwise, pairwise 의 supervised, unsupervised 성능을 비교함
+    - 논문에서는 pointwise(allpair, sorting, sliding)이 가장 효과적임을 보이고, 그중 PRP-sliding이 효과적임
+</details>
+<details>
+    <summary>Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models</summary>
  
     - NAACL 2024
     - LM listwise ranking에서 lost in the middle을 해결하기 위해 condidate prompting을 permute하고 output들을 aggregate하여 최적(center) ranking을 선택
