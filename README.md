@@ -16,6 +16,17 @@
     - LM listwise ranking에서 lost in the middle을 해결하기 위해 condidate prompting을 permute하고 output들을 aggregate하여 최적(center) ranking을 선택
     - keyword: listwise-ranking LLMs, permutation self-consistency, lost in the middle
 </details>
+<details>
+    <summary>Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents</summary>
+ 
+    - EMNLP 2023
+    - llm listwise ranking basic paper
+    - 주어진 passage들을 [1] [2] [3] 등으로 indexing한 후 순서로 output. context length 제약을 candidate window slide ranking 으로 극복
+    - GPT-4 rankGPT > gpt distillated model > 기존 supervised models
+    - gpt-4가 학습하지 못한 NovelEval set 제공
+    - keyword: 
+</details>
+
 
 
 
