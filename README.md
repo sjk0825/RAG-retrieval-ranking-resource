@@ -29,20 +29,6 @@
 
 
 
-
-### DATA - Synthesize
-<details>
-    <summary>PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models</summary>
-</details>
-<details>
-    <summary>gecko embedding</summary>
-</details>
-<details>
-    <summary>improve text embedding with large language model</summary>
-</details>
-
-
-
 ### skim
 <details>
     <summary>multi token prediction</summary>
@@ -94,3 +80,13 @@
 </details>
 
 
+### DATA - Synthesize
+<details>
+    <summary>PROMETHEUS 2: An Open Source Language Model Specialized in Evaluating Other Language Models</summary>
+</details>
+<details>
+    <summary>gecko embedding</summary>
+</details>
+<details>
+    <summary>improve text embedding with large language model</summary>
+</details>
