@@ -60,3 +60,37 @@
  - LLM에서 잘 연구되지 않던 prunning, sparse traning을 통해 donwstream task (특히 code generation, chatbot) 에서 accuracy를 회복함. LLAMA2
  - 지금까지 LLM pruning 연구의 장애물이었던 GPU sparse training을 가능하게 한건 cerebras의 WSEs(Cerebras Wafer Scale Engine) 임.
 </details>
+
+
+
+
+
+
+
+---
+### RETRIEVAL - Instruct
+<details>
+    <summary>Task-aware Retrieval with Instructions</summary>
+</details>
+<details>
+    <summary>One Embedder, Any Task: Instruction-Finetuned Text </summary>
+</details>
+<details>
+    <summary>Instruction Embedding: New Concept, Benchmark and Method for Latent Representations of Instructions</summary>
+</details>
+<details>
+    <summary>NEFTUNE: NOISY EMBEDDINGS IMPROVE INSTRUCTION FINETUNING</summary>
+</details>
+
+### RETRIEVAL - Negative
+<details>
+    <summary>Passage based bm25 hard negatives: A Simple and Effective Negative Sampling Strategy for Dense Retrieval</summary>
+</details>
+<details>
+    <summary>TriSampler: A Better Negative Sampling Principle for Dense Retrieval</summary>
+</details>
+<details>
+    <summary>Gecko: Versatile Text Embeddings Distilled from Large Language Models</summary>
+</details>
+
+
