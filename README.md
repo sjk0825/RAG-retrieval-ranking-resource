@@ -4,21 +4,18 @@
 ### RANKING
 <details>
     <summary>Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting</summary>
-    
     - ICLR 2024
     - LLM의 pointwise, listwise, pairwise 의 supervised, unsupervised 성능을 비교함
     - 논문에서는 pointwise(allpair, sorting, sliding)이 가장 효과적임을 보이고, 그중 PRP-sliding이 효과적임
 </details>
 <details>
     <summary>Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models</summary>
- 
     - NAACL 2024
     - LM listwise ranking에서 lost in the middle을 해결하기 위해 condidate prompting을 permute하고 output들을 aggregate하여 최적(center) ranking을 선택
     - keyword: listwise-ranking LLMs, permutation self-consistency, lost in the middle
 </details>
 <details>
     <summary>Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents</summary>
- 
     - EMNLP 2023
     - llm listwise ranking basic paper
     - 주어진 passage들을 [1] [2] [3] 등으로 indexing한 후 순서로 output. context length 제약을 candidate window slide ranking 으로 극복
@@ -41,18 +38,20 @@
     <summary>
         gemini 1.5 Flesh
     </summary>
- - https://deepmind.google/technologies/gemini/flash/
- - genimi 1.5 pro의 성능은 유지하며 추론 속도 향상한 multi model deepmind model
- - genimi 1.0 ultra를 능가
- - how to flash는 찾아도 잘 안나오는듯
+    
+ * https://deepmind.google/technologies/gemini/flash/
+ * genimi 1.5 pro의 성능은 유지하며 추론 속도 향상한 multi model deepmind model
+ * genimi 1.0 ultra를 능가
+ * how to flash는 찾아도 잘 안나오는듯
 </details>
 <details>
     <summary>
         sillyTavern 1.12.0 released with Data bank (RAG)
     </summary>
- - https://docs.sillytavern.app/usage/core-concepts/data-bank/
- - sillyTavern 은 페르소나를 지정하고 쳇봇을 제공하는 서비스
- - 그 중, RAG data bucket을 제공하는데, 특정 모든 chat에서 retrieval 가능한 docs, 특정 페르소나에서만 retrieval docs, 현재 chat에서만 활용가능 한 docs등을 구분할 수 있음
+    
+ * https://docs.sillytavern.app/usage/core-concepts/data-bank/
+ * sillyTavern 은 페르소나를 지정하고 쳇봇을 제공하는 서비스
+ * 그 중, RAG data bucket을 제공하는데, 특정 모든 chat에서 retrieval 가능한 docs, 특정 페르소나에서만 retrieval docs, 현재 chat에서만 활용가능 한 docs등을 구분할 수 있음
 </details>
 <details>
     <summary>multi token prediction</summary>
