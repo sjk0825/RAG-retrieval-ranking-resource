@@ -38,6 +38,23 @@
 
 ### skim
 <details>
+    <summary>
+        gemini 1.5 Flesh
+    </summary>
+ - https://deepmind.google/technologies/gemini/flash/
+ - genimi 1.5 pro의 성능은 유지하며 추론 속도 향상한 multi model deepmind model
+ - genimi 1.0 ultra를 능가
+ - how to flash는 찾아도 잘 안나오는듯
+</details>
+<details>
+    <summary>
+        sillyTavern 1.12.0 released with Data bank (RAG)
+    </summary>
+ - https://docs.sillytavern.app/usage/core-concepts/data-bank/
+ - sillyTavern 은 페르소나를 지정하고 쳇봇을 제공하는 서비스
+ - 그 중, RAG data bucket을 제공하는데, 특정 모든 chat에서 retrieval 가능한 docs, 특정 페르소나에서만 retrieval docs, 현재 chat에서만 활용가능 한 docs등을 구분할 수 있음
+</details>
+<details>
     <summary>multi token prediction</summary>
  
   - https://medium.com/@arthur.sedek/metas-breakthrough-multi-token-prediction-technology-40f8e9913edb
