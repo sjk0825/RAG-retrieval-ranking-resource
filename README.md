@@ -27,7 +27,14 @@
     - keyword: 
 </details>
 
+### RAG - Retrieval
+<details>
+    <summary>When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively</summary>
 
+    - LLM이 answer를 출력할때 [RET] token을 통해 retrieval context를 줄지 말지 결정한다.
+    - 실험적으로 모두 IR을 주지 않거나, 모두 IR을 주는 경우보다 더 높은 성능을 보였음
+    - context를 안주는것보다 주는것이 더 성능이 나았음에도, 그 성능이 높지 않았는데 이거 retriver 성능 문제임을 보임 (not retrieve golden context)
+</details>
 
 ### skim
 <details>
