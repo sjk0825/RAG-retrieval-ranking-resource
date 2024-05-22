@@ -33,6 +33,13 @@
     - context를 안주는것보다 주는것이 더 성능이 나았음에도, 그 성능이 높지 않았는데 이거 retriver 성능 문제임을 보임 (not retrieve golden context)
 </details>
 
+### RAG - technic
+<details>
+    <summary>llama to RAG with langchain</summary>
+
+    - https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
+</details>
+
 ### skim
 <details>
     <summary>
