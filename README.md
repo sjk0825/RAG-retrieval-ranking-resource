@@ -4,18 +4,21 @@
 ### RANKING
 <details>
     <summary>Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting</summary>
+    
     - ICLR 2024
     - LLM의 pointwise, listwise, pairwise 의 supervised, unsupervised 성능을 비교함
     - 논문에서는 pointwise(allpair, sorting, sliding)이 가장 효과적임을 보이고, 그중 PRP-sliding이 효과적임
 </details>
 <details>
     <summary>Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models</summary>
+    
     - NAACL 2024
     - LM listwise ranking에서 lost in the middle을 해결하기 위해 condidate prompting을 permute하고 output들을 aggregate하여 최적(center) ranking을 선택
     - keyword: listwise-ranking LLMs, permutation self-consistency, lost in the middle
 </details>
 <details>
     <summary>Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents</summary>
+    
     - EMNLP 2023
     - llm listwise ranking basic paper
     - 주어진 passage들을 [1] [2] [3] 등으로 indexing한 후 순서로 output. context length 제약을 candidate window slide ranking 으로 극복
