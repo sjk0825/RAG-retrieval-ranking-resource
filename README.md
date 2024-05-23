@@ -35,6 +35,13 @@
 
 ### RAG - technic
 <details>
+    <summary>How to Use Off-the-Shelf Evaluators</summary>
+
+    - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
+    - LM as judge 제공 (no label)
+</details>
+
+<details>
     <summary>llama to RAG with langchain</summary>
 
     - https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
