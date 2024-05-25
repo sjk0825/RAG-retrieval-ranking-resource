@@ -50,50 +50,7 @@
     - https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
 </details>
 
-### skim
-<details>
-    <summary>
-        gemini 1.5 Flesh
-    </summary>
-    
- * https://deepmind.google/technologies/gemini/flash/
- * genimi 1.5 pro의 성능은 유지하며 추론 속도 향상한 multi model deepmind model
- * genimi 1.0 ultra를 능가
- * how to flash는 찾아도 잘 안나오는듯
-</details>
-<details>
-    <summary>
-        sillyTavern 1.12.0 released with Data bank (RAG)
-    </summary>
-    
- * https://docs.sillytavern.app/usage/core-concepts/data-bank/
- * sillyTavern 은 페르소나를 지정하고 쳇봇을 제공하는 서비스
- * 그 중, RAG data bucket을 제공하는데, 특정 모든 chat에서 retrieval 가능한 docs, 특정 페르소나에서만 retrieval docs, 현재 chat에서만 활용가능 한 docs등을 구분할 수 있음
-</details>
-<details>
-    <summary>multi token prediction</summary>
- 
-  - https://medium.com/@arthur.sedek/metas-breakthrough-multi-token-prediction-technology-40f8e9913edb
-  - 한번에 multi head로 여러개의 next tokens들을 학습(추론도 가능) 하는데 속도 효율성 높다. 특정 domain에서 효과가 높다고 함
-  - META AI
-</details>
-<details>
-    <summary>
-        Sparse LLama: 70% smaller, 3x faster, full accuracy
-    </summary>
-    
- - https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy
- - LLM에서 잘 연구되지 않던 prunning, sparse traning을 통해 donwstream task (특히 code generation, chatbot) 에서 accuracy를 회복함. LLAMA2
- - 지금까지 LLM pruning 연구의 장애물이었던 GPU sparse training을 가능하게 한건 cerebras의 WSEs(Cerebras Wafer Scale Engine) 임.
-</details>
 
-
-
-
-
-
-
----
 ### RETRIEVAL - Instruct
 <details>
     <summary>Task-aware Retrieval with Instructions</summary>
@@ -129,4 +86,53 @@
 </details>
 <details>
     <summary>improve text embedding with large language model</summary>
+</details>
+
+
+### -
+<details>
+    <summary>
+        Aya23
+    </summary>
+    
+ * Aya 23: Open Weight Releases to Further Multilingual Progress , https://drive.google.com/file/d/1YKBPo61pnl97C1c_1C2ZVOnPhqf7MLSc/view
+ * multilingual instruction data로 findtuned llm. for multilingual llm
+ * aya101과 다르게 23 lang만 훈련하고 성능을 높임 (gemini7B, mixtral-8X7B win)
+ * pretrained 모델을 aya101과 다르게 mT0 에서 command R을 활용
+ * multiingual task + preference evaluation (llm as judge)
+</details>
+<details>
+    <summary>
+        gemini 1.5 Flesh
+    </summary>
+    
+ * https://deepmind.google/technologies/gemini/flash/
+ * genimi 1.5 pro의 성능은 유지하며 추론 속도 향상한 multi model deepmind model
+ * genimi 1.0 ultra를 능가
+ * how to flash는 찾아도 잘 안나오는듯
+</details>
+<details>
+    <summary>
+        sillyTavern 1.12.0 released with Data bank (RAG)
+    </summary>
+    
+ * https://docs.sillytavern.app/usage/core-concepts/data-bank/
+ * sillyTavern 은 페르소나를 지정하고 쳇봇을 제공하는 서비스
+ * 그 중, RAG data bucket을 제공하는데, 특정 모든 chat에서 retrieval 가능한 docs, 특정 페르소나에서만 retrieval docs, 현재 chat에서만 활용가능 한 docs등을 구분할 수 있음
+</details>
+<details>
+    <summary>multi token prediction</summary>
+ 
+  - https://medium.com/@arthur.sedek/metas-breakthrough-multi-token-prediction-technology-40f8e9913edb
+  - 한번에 multi head로 여러개의 next tokens들을 학습(추론도 가능) 하는데 속도 효율성 높다. 특정 domain에서 효과가 높다고 함
+  - META AI
+</details>
+<details>
+    <summary>
+        Sparse LLama: 70% smaller, 3x faster, full accuracy
+    </summary>
+    
+ - https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy
+ - LLM에서 잘 연구되지 않던 prunning, sparse traning을 통해 donwstream task (특히 code generation, chatbot) 에서 accuracy를 회복함. LLAMA2
+ - 지금까지 LLM pruning 연구의 장애물이었던 GPU sparse training을 가능하게 한건 cerebras의 WSEs(Cerebras Wafer Scale Engine) 임.
 </details>
