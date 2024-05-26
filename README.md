@@ -41,6 +41,7 @@
     <summary>openai prompt engineering</summary>
 
     - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
+    - tactics for tasks
 </details>
 
 <details>
