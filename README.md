@@ -38,10 +38,10 @@
 
 ### RAG - technic
 <details>
-    <summary>openai prompt engineering</summary>
+    <summary>prompt engineering</summary>
 
-    - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
-    - tactics for tasks
+    - openai tactics for tasks - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
+    - few-shot prompting - https://www.promptingguide.ai/techniques/fewshot
 </details>
 
 <details>
