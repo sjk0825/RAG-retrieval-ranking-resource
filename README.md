@@ -40,7 +40,7 @@
 <details>
     <summary>prompt engineering</summary>
 
-    - openai tactics for tasks - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
+    - openai tactics for tasks - https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results 
     - few-shot prompting - https://www.promptingguide.ai/techniques/fewshot
 </details>
 
