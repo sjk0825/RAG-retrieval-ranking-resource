@@ -38,6 +38,12 @@
 
 ### RAG - technic
 <details>
+    <summary>openai prompt engineering</summary>
+
+    - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
+</details>
+
+<details>
     <summary>How to Use Off-the-Shelf Evaluators</summary>
 
     - https://docs.smith.langchain.com/old/evaluation/faq/evaluator-implementations 
