@@ -95,7 +95,7 @@
     <summary>improve text embedding with large language model</summary>
 </details>
 
-
+----
 ### community
 
 ### llm - multilingual 
