@@ -96,7 +96,9 @@
 </details>
 
 
-### -
+### - 
+
+### llm - multilingual 
 <details>
     <summary>
         Aya23
@@ -108,6 +110,8 @@
  * pretrained 모델을 aya101과 다르게 mT0 에서 command R을 활용
  * multiingual task + preference evaluation (llm as judge)
 </details>
+
+### llm - general
 <details>
     <summary>
         gemini 1.5 Flesh
@@ -118,6 +122,8 @@
  * genimi 1.0 ultra를 능가
  * how to flash는 찾아도 잘 안나오는듯
 </details>
+
+### RAG - application
 <details>
     <summary>
         sillyTavern 1.12.0 released with Data bank (RAG)
@@ -133,6 +139,16 @@
   - https://medium.com/@arthur.sedek/metas-breakthrough-multi-token-prediction-technology-40f8e9913edb
   - 한번에 multi head로 여러개의 next tokens들을 학습(추론도 가능) 하는데 속도 효율성 높다. 특정 domain에서 효과가 높다고 함
   - META AI
+</details>
+
+### llm - efficiency
+<details>
+    <summary>
+        gguf
+    </summary>
+    
+ - https://github.com/ggerganov/llama.cpp
+ - model weight 압축, meta info 포함, quantized model compatibility
 </details>
 <details>
     <summary>
