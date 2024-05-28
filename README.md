@@ -40,7 +40,7 @@
 
     - retrieval 된 doc들의 is_suport, is_related 등의 토큰
     - 위 토큰들이 포함된 데이터들을 GPT-4로 생성
-    - 생성된 토큰들이 포함된 데이터로 LM을 학습
+    - 생성된 토큰들이 포함된 데이터로 LM을 학습 input: x,ret -> y
 </details>
 
 ### RAG - technic
