@@ -35,6 +35,13 @@
     - 실험적으로 모두 IR을 주지 않거나, 모두 IR을 주는 경우보다 더 높은 성능을 보였음
     - context를 안주는것보다 주는것이 더 성능이 나았음에도, 그 성능이 높지 않았는데 이거 retriver 성능 문제임을 보임 (not retrieve golden context)
 </details>
+<details>
+    <summary>Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection</summary>
+
+    - retrieval, is_suport, is_related  등의 토큰
+    - 위 토큰들이 포함된 데이터들을 GPT-4로 생성
+    - 생성된 토큰들이 포함된 데이터로 LM을 학습
+</details>
 
 ### RAG - technic
 <details>
