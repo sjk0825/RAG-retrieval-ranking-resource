@@ -148,7 +148,7 @@
   - META AI
 </details>
 
-### llm - efficiency
+### LLM - efficiency
 <details>
     <summary>
         gguf
@@ -161,8 +161,15 @@
     <summary>
         Sparse LLama: 70% smaller, 3x faster, full accuracy
     </summary>
+
+### LLM - data synthesis
     
- - https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy
- - LLM에서 잘 연구되지 않던 prunning, sparse traning을 통해 donwstream task (특히 code generation, chatbot) 에서 accuracy를 회복함. LLAMA2
- - 지금까지 LLM pruning 연구의 장애물이었던 GPU sparse training을 가능하게 한건 cerebras의 WSEs(Cerebras Wafer Scale Engine) 임.
+<details>
+    <summary>
+        distilabel
+    </summary>
+    
+ - https://github.com/argilla-io/distilabel
+ - 데이터 생성 ouptut에 대한 품질 평가, AI feedback pipeline 제공. (ex. rating, preference, rationales)
+ - https://distilabel.argilla.io/1.0.3/sections/learn/tasks/feedback_tasks/
 </details>
