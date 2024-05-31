@@ -50,6 +50,7 @@
     - https://github.com/kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference
     - 2023.06 코드
     - 시스템 구성요소: binary GGML quantized llm model, C transformer, langchain, faiss, sbert lib, poetry
+    - llama.cpp  https://www.datacamp.com/tutorial/llama-cpp-tutorial
 </details>
 <details>
     <summary>prompt engineering</summary>
