@@ -45,6 +45,13 @@
 
 ### RAG - technic
 <details>
+    <summary>Llama-2-Open-Source-LLM-CPU-Inference</summary>
+
+    - https://github.com/kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference
+    - 2023.06 코드
+    - 시스템 구성요소: binary GGML quantized llm model, C transformer, langchain, faiss, sbert lib, poetry
+</details>
+<details>
     <summary>prompt engineering</summary>
 
     - openai tactics for tasks - https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results 
