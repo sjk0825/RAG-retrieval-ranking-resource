@@ -29,6 +29,41 @@
 
 ### RAG - Retrieval
 <details>
+    <summary>GNN-RAG</summary>
+
+    - combining LLMs language abilities with GNNs reasoning in RAG style
+    - (R) KG (knowledge Graph) 
+        - (head, relation, tail)로 이뤄진 사람이 직접 생성한 지식그래프
+    - (R) KGQA
+        - 질문에 대해 KG 내부 노드(entity)로 답을 찾는 QA task
+        - 본 연구는 GNN (retrieval) + RAG (reasoning) 방식을 통해 KGQA 수행
+        - node classification problem 이기도 함
+    - (R) (B) webQSP, CWQ
+        - webQSP: webQuestion 들을 의미적으로 구문화한 데이터로, 지식기반 QA, semantic parsing 등의 task에 활용되는 데이터
+        - CWQ (complexWebQuestion): Web에서 다중 추론이 필요한 데이터로, search engine interaction , reading comprehension, semantic parsing 등에 활용됨
+    - (R) KG retrieval
+        - KG가 가진 수많은 지식 중에서 질문에 답가능한 subgraph G를 반환
+        - (B) graph  entity linking, neighbor extraction (전체를 순회하는게 아닌 관련 relation 추출 방법을 말하는 듯. ex. 특정 연구에서넌 retreival 위해 KG (h+r=t) score 활용
+        - 방법으로는 embedding, GNN, LLM-based 등이 있음
+    - (R) GNN-RAG
+        - GNN을 통해서 KG retrieval
+        - LLM을 통해 반환된 subgraph를 vervalize (LLM prompt에 예민하기에, llama-chat fine-tuned 수행
+        - vervalized 결과를 LLM에 RAG (Prompt)로 제공 후 reasoning
+    - (R) RNNs
+        - RAG 에서 관련 정보를 GNN을 통해 가져오는 만큼 훈련방식과 candidate 추출 step 알아야함
+        - subgraph 내의 node들은 answer, non-answer를 softmax 통해 추출
+        - GNN 훈련은 node classification 으로 훈련, high prob이 reasoning 위한 최종 candidat answer
+        - candidate answer 중 shortest path가 reasoning path로 입력됨
+    - (R) retrieval augmentation
+        - 질문과 관련된 entity로부터 subgraph도 가져와 함께 prompt로 넣어주는 것
+    - result
+        - GMM + LLM > KG + LLM > LLM ~= GNN ~= embedding
+
+    - (B) (R) RoG (Reasoning On Graph)
+        - Retrieval시 KG 정보를 활용하지만 , 본문과 달리 GNN이 아닌 LLM을 활용하는 방법론
+</details>
+
+<details>
     <summary>When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively</summary>
 
     - LLM이 answer를 출력할때 [RET] token을 통해 retrieval context를 줄지 말지 결정한다.
