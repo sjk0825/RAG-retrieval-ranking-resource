@@ -209,6 +209,8 @@
     
  - https://github.com/ggerganov/llama.cpp
  - https://medium.com/@metechsolutions/llm-by-examples-use-gguf-quantization-3e2272b66343
+ - langchain - https://medium.com/@uppadhyayraj/using-retrieval-augmented-generation-rag-to-enhance-local-large-language-models-e81b156f1457
+ - llama_index - https://medium.datadriveninvestor.com/rag-using-gguf-a6a1bae49592
  - model weight 압축, meta info 포함, quantized model compatibility
 </details>
 <details>
