@@ -208,6 +208,7 @@
     </summary>
     
  - https://github.com/ggerganov/llama.cpp
+ - https://medium.com/@metechsolutions/llm-by-examples-use-gguf-quantization-3e2272b66343
  - model weight 압축, meta info 포함, quantized model compatibility
 </details>
 <details>
