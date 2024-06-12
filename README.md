@@ -194,6 +194,15 @@
 
 ### LLM - efficiency
 <details>
+    <summary>apple on device llm </summary>
+
+    - Introducing Apple’s On-Device and Server Foundation Models
+    - https://machinelearning.apple.com/research/introducing-apple-foundation-models
+    - apple on-device- 3B llm 모델 iphone, mac등에 적용
+    - apple's AXLearn framework, rejection sampling, low-bit palletization, LoRA, Talaria, human evaluation, adapter tune, 3B on device param, instruction-following Eval (IFEval)
+    
+</details>
+<details>
     <summary>
         gguf
     </summary>
