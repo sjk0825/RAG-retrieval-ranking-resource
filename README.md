@@ -124,6 +124,27 @@
 
 ### RETRIEVAL - Negative
 <details>
+    <summary>Cross-Modal and Uni-Modal Soft-Label Alignment for Image-Text Retrieval</summary>
+
+    - AAAI 2024 https://arxiv.org/abs/2403.05261
+    - ITR. Image-Text Retrieval task
+    - MSCOCO data
+        - Microsoft Common Object in Context
+        - object detection, segmentation, key-point detection, captioning dataset
+    - Flickr30K Data
+        - https://paperswithcode.com/dataset/flickr30k
+    - inter-modal match missing problem
+        - image-text false negative problem
+        - cross-modal soft alignment 통해 완화 (CSA)
+        - CSA. uni-modal간의 관계 분포를 offline에서 구한 후 cross-modal 학습시 해당 분포를 따르도록 학습 (KL)
+    - intra-modal semantic loss problem.
+        - cross-modal 로만 훈련시 uni-modal의 유사성을 인식하는 능력이 부족할 수 있는 문제. unimodal example A, A'간의 관계를 충분히 학습하지 못함
+        - uni-modal soft-label Alignment (USA)로 완화
+        - USA. multi0modal을 학습하며 offline으로 뽑히는 uni-modal 유사도 분포를 soft label로 학습
+    
+</details>
+
+<details>
     <summary>Passage based bm25 hard negatives: A Simple and Effective Negative Sampling Strategy for Dense Retrieval</summary>
 </details>
 <details>
