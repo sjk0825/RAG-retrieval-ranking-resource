@@ -45,7 +45,7 @@
         - GNN을 통해서 KG retrieval
         - LLM을 통해 반환된 subgraph를 vervalize (LLM prompt에 예민하기에, llama-chat fine-tuned 수행
         - vervalized 결과를 LLM에 RAG (Prompt)로 제공 후 reasoning
-    - (R) RNNs
+    - (R) GNN 훈련
         - RAG 에서 관련 정보를 GNN을 통해 가져오는 만큼 훈련방식과 candidate 추출 step 알아야함
         - subgraph 내의 node들은 answer, non-answer를 softmax 통해 추출
         - GNN 훈련은 node classification 으로 훈련, high prob이 reasoning 위한 최종 candidat answer
