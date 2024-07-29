@@ -47,6 +47,7 @@
         - vervalized 결과를 LLM에 RAG (Prompt)로 제공 후 reasoning
     - (R) GNN 훈련
         - RAG 에서 관련 정보를 GNN을 통해 가져오는 만큼 훈련방식과 candidate 추출 step 알아야함
+        - subgraph : question representaion ~= question entity ~= LM(question) 과 relation representation ~= LM(relation) 으로 기준통해 subgraph 추출
         - subgraph 내의 node들은 answer, non-answer를 softmax 통해 추출
         - GNN 훈련은 node classification 으로 훈련, high prob이 reasoning 위한 최종 candidat answer
         - candidate answer 중 shortest path가 reasoning path로 입력됨
